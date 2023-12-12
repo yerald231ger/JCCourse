@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">myjpc</string>
+    <string name="title_activity_modifiers">Modifiers</string>
+    <string name="title_activity_jcmodifiers">JCModifiers</string>
+</resources>
