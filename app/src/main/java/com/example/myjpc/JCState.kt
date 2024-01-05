@@ -27,7 +27,7 @@ class JCState : ComponentActivity() {
                     Modifier
                         .weight(1f)
                         .fillMaxSize()
-                ){
+                ) {
                     color.value = it
                 }
                 Box(

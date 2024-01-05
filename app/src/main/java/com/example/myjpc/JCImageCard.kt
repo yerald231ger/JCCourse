@@ -23,7 +23,6 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -51,7 +50,10 @@ class JCImageCard : ComponentActivity() {
 
 @Composable
 fun ImageCard(
-    painter: Painter, contentDescription: String, title: String, modifier: Modifier = Modifier
+    painter: Painter,
+    contentDescription: String,
+    title: String,
+    modifier: Modifier = Modifier
 ) {
     Card(
         modifier = modifier.fillMaxWidth(),
@@ -77,9 +79,7 @@ fun ImageCard(
                             startY = 300f
                         )
                     )
-            ) {
-
-            }
+            )
             Box(
                 modifier = Modifier
                     .fillMaxSize()
